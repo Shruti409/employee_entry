@@ -3,8 +3,8 @@
 const mongoose = require('mongoose');
 require('dotenv').config();
 //require('dotenv').config();
-//const DB=process.env.MONGO_URL;
-const DB = `mongodb+srv://shruti:shrutivohra@cluster0.lfuuc.mongodb.net/employee_entry?retryWrites=true&w=majority`;
+const DB=process.env.MONGO_URL;
+//const DB = `mongodb+srv://shruti:shrutivohra@cluster0.lfuuc.mongodb.net/employee_entry?retryWrites=true&w=majority`;
 mongoose.connect(DB,{
     useNewUrlParser: true,
     //useCreateIndex : true,
